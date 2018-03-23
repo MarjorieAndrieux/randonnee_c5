@@ -31,33 +31,32 @@ $connect->query ("SET NAMES UTF8");
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="Ajoutrando" method="post" action="ajoutrando.php">
                         <div class="form-group">
-                            <label for="name">Nom</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Entrez nom">
+                            <label for="nom">Nom</label>
+                            <input type="text" class="form-control" id="nom" name="nom" aria-describedby="emailHelp" placeholder="Entrez nom">
                         </div>
                         <div class="form-group">
-                            <label for="dificulte">Difficulté</label>
-                            <input type="text" class="form-control" id="difficulté" aria-describedby="emailHelp" placeholder="Entrez difficulté">
+                            <label for="difficulte">Difficulté</label>
+                            <input type="text" class="form-control" id="difficulte" name="difficulte" aria-describedby="emailHelp" placeholder="Entrez difficulté">
                         </div>
                         <div class="form-group">
                             <label for="distance">Distance</label>
-                            <input type="text" class="form-control" id="distance" aria-describedby="emailHelp" placeholder="Entrez distance">
+                            <input type="text" class="form-control" id="distance" name="distance" aria-describedby="emailHelp" placeholder="Entrez distance">
                         </div>
                         <div class="form-group">
                             <label for="duree">durée</label>
-                            <input type="time" class="form-control" id="duree" aria-describedby="emailHelp" placeholder="Entrez durée">
+                            <input type="time" class="form-control" id="duree" name="duree" aria-describedby="emailHelp" placeholder="Entrez durée">
                         </div>
                         <div class="form-group">
                             <label for="denivele">Dénivelé</label>
-                            <input type="text" class="form-control" id="denivele" aria-describedby="emailHelp" placeholder="Entrez dénivelé">
+                            <input type="text" class="form-control" id="denivele" name="denivele" aria-describedby="emailHelp" placeholder="Entrez dénivelé">
                         </div>
                         <div class="form-group">
                             <label for="praticable">Praticable</label>
-                            <input type="text" class="form-control" id="praticable" aria-describedby="emailHelp" placeholder="Entrez praticable">
+                            <input type="text" class="form-control" id="praticable" name="praticable" aria-describedby="emailHelp" placeholder="Entrez praticable">
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 <div class="modal-footer">
